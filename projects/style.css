@@ -1,0 +1,191 @@
+bg-image{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,.5), url("pic1.jpg"));
+}
+
+.image img{
+    /* position: absolute; */
+    filter: brightness(50%);
+    height: 100vh;
+    width: 100%;
+}
+   
+.NavbarEdit{
+    font-size: 1.8rem !important;
+}
+
+.HomeEdit{
+    transition: ease-in-out 0.3s;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black !important;
+   
+}
+.HomeEdit:hover{
+   background: grey;
+    /* box-shadow: 0 0 10px grey,  0 0 40px grey,  0 0 80px grey;  */
+    border-top: hidden;
+    border-bottom: hidden;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color: white !important;
+}
+
+.AboutEdit{
+    transition: ease-in-out 0.3s;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black !important;
+}
+.AboutEdit:hover{
+    background: grey;
+     /* box-shadow: 0 0 10px grey,  0 0 40px grey,  0 0 80px grey;  */
+     border-top: hidden;
+     border-bottom: hidden;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+     color: white !important;
+ }
+
+.container{
+    position: relative;
+    color: white;
+}
+
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+    width: 35%;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 10px;
+   
+}
+
+.editH6-1{
+    margin: 0px !important;
+    padding: 0px;
+    color: white;
+    display: inline-block;
+}
+
+.EditContainer{
+    margin-bottom: 0px !important;
+}
+
+.editH6-2{
+    display: inline-block;
+    margin-bottom: 0px !important;
+    color: white;
+     float: right;
+}
+
+.EditPara{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+    width: 35%;
+  
+
+}
+
+/* .card {
+    transition: transform 0.2s;
+    margin: 0 auto;
+}
+
+.card:hover {
+   filter: brightness(50%);
+   transform: scale(1.1);
+} */
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0 10rem 0;
+    
+}
+
+.ourServices .ourServicesHeading{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.ourServices .underline{
+    width: 12rem;
+    height: 0.3rem;
+    /* margin-left: 29rem; */
+    background-color: rgb(192, 56, 56);
+}
+
+
+.PlaceholderButtonEdit{
+    width: 50% !important;
+}
+
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0 10rem 0;
+    
+}
+
+.ourProjects .ourProjectsHeading{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.ourProjects .underline{
+    width: 20rem;
+    height: 0.3rem;
+    /* margin-left: 29rem; */
+    background-color: rgb(192, 56, 56);
+}
+
+.cardEdit{
+    position: relative;
+}
+
+.cardEdit img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cardEdit:hover img{
+    filter: brightness(50%);
+}
+
+.cardEdit:hover .middle{
+    opacity: 1;
+}
+
+.middle p{
+    color: white;
+    width: 100%;
+}
+.middle h3{
+    color: white;
+}
